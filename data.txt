@@ -1,0 +1,73 @@
+# Reference points: name   X,Y (Run8)   lat,lon
+# [region] starts a new Run8 coordinate frame; each region is fitted separately.
+# Points above the first header go into a region called [default].
+# The same header used twice merges both blocks into one region, so you can split a region into several chunks in the file if you like.
+# Names are case-sensitive: "SoCal" won't find [socal].
+# Anything after a # is a comment. Names may contain spaces.
+
+[socal]
+#
+# Mojave
+#
+Saco            -10,47      35.44,-119.09
+Kern Jct        2,40        35.37,-118.98
+Palmdale        101,-49     34.55,-118.07
+Mojave          89,4        35.04,-118.17   # at the overpass South of the yard
+Hinkley         192,-7      34.94,-117.21
+
+#
+# Barstow
+#
+Hutt            206,-12     34.89,-117.09
+Lenwood         201,-15     34.87,-117.13
+Daggett         228,-15     34.86,-116.88
+
+#
+# Needles
+#
+Minneola        240,-17     34.85,-116.77
+Ash Hill        316,-31     34.70,-116.05   # suspect: misses by ~2 km, re-check X,Y
+Needles         474,-18     34.84,-114.61
+
+#
+# Cajon
+#
+Hodge           192,-22     34.80,-117.21
+Cajon           166,-77     34.30,-117.46
+W Colton X      180,-102    34.07,-117.33
+
+#
+# San Bernardino
+#
+LA J Yard       85,-108     34.00,-118.20
+Dayton Pkwy OP  82,-100     34.08,-118.23
+Los Nietos X    99,-113     33.96,-118.07
+Fullerton Jct   116,-123    33.87,-117.91
+Ontario         146,-102    34.06,-117.64
+Streeter        172,-113    33.96,-117.39
+
+[southeast]
+#
+# A-Line
+#
+Stanton Energy        98,-279    28.473319,-81.166170   # at the switch in the loop
+Deland Amtrak         76,-220    29.017109,-81.352463
+Bostwick              43,-142    29.737520,-81.641658   # the wye at Seminole Electric
+
+# Fitzgerald
+#
+Fitzgerald      -142,73         31.73,-83.28            # Shop Rd crossing North of yard
+Campground      -303,200        32.90084,-84.72270      # SE switch into Campground siding
+MP 788.3        -291,195        32.85399,-84.61326      # just north of bridge over 2nd Avenue in Manchester, just south of wye
+
+#
+# Baldwin
+#
+Sanderson           -28,-86       30.25,-82.26          # US 90 overpass near Insteel
+Jesup               14,59         31.60105,-81.88703    # E Magnolia St crossing near Jesup jct
+
+#
+# Savannah
+#
+Salkehatchie        134,179     32.70605,-80.81281      # grade crossing at Public Landing Road
+
